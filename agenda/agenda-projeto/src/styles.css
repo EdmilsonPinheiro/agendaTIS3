@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e9f3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    align-content: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff3399;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="date"], input[type="time"] {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff3399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #6c757d; 
+}
+
+.date, .time {
+    margin-bottom: 10px;
+}
+
+.time button {
+    background-color: #ff3399;
+    margin-left: 10px;
+}
+
+.time button:hover {
+    background-color: #ff3399;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-agenda {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-delete {
+    padding: 10px;
+    width: 40%;
+    background-color: #ff3399;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-add:hover, .btn-delete:hover {
+    background-color: #fa82dc;
+}
+
+.erro {
+    color: red;
+    text-align: center;
+}
+
+.agenda-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn-reserve {
+    padding: 10px;
+    background-color: #ff3399;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+}
+.btn-reservado {
+    padding: 10px;
+    background-color: #6c757d; 
+    color: #FFF;
+    border: none;
+    cursor: not-allowed; 
+    border-radius: 5px;
+    width: 100px; 
+}
+
+.btn-add {
+    padding: 10px;
+    width: 25%;
+    background-color: #ff3399;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.btn-link {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff3399;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn-link:hover {
+    background-color: #fa82dc;
+}
