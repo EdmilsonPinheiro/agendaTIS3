@@ -1,1 +1,1 @@
-Projeto agenda completo.
+Projeto agenda para faculdade.
